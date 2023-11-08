@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Customized Setup</title>
+</head>
+<style type="text/css">
+	img {
+		width: 100px;
+		height: 100px;
+
+		}
+	body{
+		font-family: trebuchet ms, sans-serif;
+	}
+	.navbar {
+		width: 100%;
+		background-color: #FFFDD0;
+		overflow: auto; 
+		padding: 8px;
+		display: block;
+
+	}
+
+
+	.navbar a{
+		padding: 15px;
+		color: black;
+		text-decoration: none;
+		font-size: 18px;
+		border-radius: 10px;
+		width: 25%; 
+		float: center;
+	}
+	.navbar a:hover{
+		background-color: ivory;
+	}
+
+
+
+.small-navbar {
+    background-color: #FFFDD0;
+    overflow: hidden;
+}
+
+.small-navbar ul {
+    list-style-type: none;
+    padding: 5px;
+    text-align: center;
+}
+
+.small-navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.small-navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.small-navbar a:hover {
+    color: grey;
+}
+
+
+
+.setup-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.setup-item {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.setup-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.price {
+    color: #e44d26;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.nikkah-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.nikkah-item {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.nikkah-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.price {
+    color: #e44d26;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.footer{
+	background-color: #FFFDD0;
+	position: absolute;
+}
+
+
+.footer {
+  width: 100%;
+  size: auto;
+  text-align: left;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 50px;
+  padding-left: 30px;
+  margin-top: 50px;
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #FFFDD0;
+}
+
+/* footer left*/
+
+.footer .footer-left {
+  width: 33%;
+  padding-left: 30px;
+  padding-right: 15px;
+  height: auto;
+  background-color: #FFFDD0;
+}
+
+.footer .about {
+  line-height: 25px;
+  color: black;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+  background-color: #FFFDD0;
+}
+
+
+.footer .icons {
+  margin-top: 25px;
+}
+
+.footer .icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: Black;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* footer center*/
+
+.footer .footer-center {
+  width: 30%;
+  background-color: #FFFDD0;
+    margin-right: 20px;
+}
+
+.footer .footer-center i {
+  background-color: black;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+
+}
+
+.footer .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer .footer-center p {
+  display: inline-block;
+  color: Black;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer .footer-center p a {
+  color: BLACK;
+  text-decoration: none;
+}
+
+.footer .footer-center a:hover{
+	color:grey;
+}
+
+/* footer right*/
+
+.footer .footer-right {
+  width: 35%;
+  background-color: #FFFDD0;
+  height: auto;
+
+}
+
+.footer h2 {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer h2 span {
+  color: black;
+}
+
+.footer .menu {
+  color: black;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer .menu a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer .menu a:hover {
+  color: grey;
+}
+
+.footer .name {
+  color: black;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .footer {
+    font-size: 14px;
+  }
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .footer .footer-center i {
+    margin-left: 0;
+  }
+}
+
+
+/* Add media query for screens up to 300px */
+@media (max-width: 300px) {
+.navbar {
+display: flex;
+flex-direction: column;
+}
+
+
+</style>
+<body>
+	<header>	
+	</header>
+<body style="background-color: ivory;" align="center">
+
+<div class="navbar">
+		<img src="1.png" alt="logo" class="logo" align="center">
+	<a class="active" href="index.html"><i class="fa fa-fw fa-home"></i>Home</a> &nbsp; &nbsp;
+	<a href="#"><i class="fa fa-fw fa-info"></i>About Us</a> &nbsp; &nbsp;
+	<a href="Services.html"><i class="fa fa-fw fa-gear"></i>Services</a> &nbsp; &nbsp;
+	<a href="Rentals.html"><i class="fa fa-fw fa-truck"></i>Rentals</a> &nbsp; &nbsp;
+	
+</div>
+<hr>
+<br>
+<div class="Services">
+  <h2> Customized Setup </h2>
+<br>
+<br>
+<div class="small-navbar">
+    <ul>
+        <li><a href="loveseatandchair.html">Loveseat & Chairs</a></li>
+        <li><a href="plinths.html">Plinths</a></li>
+        <li><a href="backdrop.html">Backdrop Stands</a></li>
+        <li><a href="Candelabralight.html">Candelabra Lights</a></li>
+        <li><a href="customizedsetup.html">Customized Setup</a></li>
+    </ul>
+</div>
+<br>
+
+<h4><b><em>At The Dreamy Decor, we understand that every celebration is as unique as the people it honors. That's why we specialize in crafting tailored event setups that mirror your individuality and style. Whether it's a dreamy engagement setup, a culturally rich Nikkah ceremony, or a lavish luxury setup, our team of experienced designers is dedicated to bringing your vision to life. With meticulous attention to detail and a passion for creativity, we transform spaces into enchanting environments that resonate with your personal story. From the choice of colors to the arrangement of every element, we curate setups that reflect your distinct taste and cultural heritage. Your event is not just a date on the calendar; it's a cherished moment in your life. Let us turn it into an unforgettable experience that captures the essence of who you are. Let's create something extraordinary together.</em></b><br>
+    <br>
+ 
+   <div class="setup-container">
+        <div class="setup-item">
+          <img src="bench1.jpeg" alt="Bench Setup">
+            <h2>Rosy Elegance Bench Setup</h2>
+            <p>A cozy bench setup in delicate shades of pink, perfect for intimate gatherings.</p>
+            <p class="price">$300</p>
+        </div>
+        <div class="setup-item">
+          <img src="elegant.jpeg" alt="Elegant Setup">
+            <h2>Pink Blush & Elegance Lounge</h2>
+            <p>A blend of pink and elegance, featuring a sofa and side stool for a chic ambiance.</p>
+            <p class="price">$700</p>
+        </div>
+        <div class="setup-item">
+          <img src="white.jpeg" alt="White harmony">
+            <h2>Champagne Dream & White Harmony</h2>
+            <p>A sophisticated setup in white and champagne hues, complete with a sofa and stool.</p>
+            <p class="price">$700</p>
+        </div>
+        <div class="setup-item">
+          <img src="whiteandblue.jpeg" alt="Luxury Retreat">
+            <h2>Luxurious Azure Retreat</h2>
+            <p>Elevate your event with luxury loveseat and side stool, adorned in white and blue drapes.</p>
+            <p class="price">$800</p>
+        </div>
+        <div class="setup-item">
+          <img src="greenandchampagne.jpeg" alt="Champagne bloom">
+            <h2>Green Serenity & Champagne Bloom</h2>
+            <p>Embrace nature's beauty with green and champagne flowers, featuring a sofa and stool.</p>
+            <p class="price">$400</p>
+        </div>
+        <div class="setup-item">
+          <img src="whitepinkandchampagne.jpeg" alt="Enchanting Love">
+            <h2>Enchanting Love Affair</h2>
+            <p>A harmonious blend of loveseat and chair in pink, white, and champagne hues, creating a romantic ambiance.</p>
+            <p class="price">$800</p>
+        </div>
+    </div>
+
+    <hr>
+<br>
+<div class="Services">
+  <h2> Nikkah Setup </h2>
+<br>
+<br>
+<div class="nikkah-container">
+        <div class="nikkah-item">
+            <h2>Heavenly Blue Blossom Nikkah</h2>
+            <img src="blue_floral_backdrop.jpeg" alt="Blue Floral Backdrop">
+            <p>A mesmerizing nikkah setup adorned with white, champagne, and light blue flowers. Featuring elegant drapes, strings, and chairs for the bride and groom.</p>
+            <p class="price">$400</p>
+        </div>
+        <div class="nikkah-item">
+            <h2>Pink Champagne Dream Nikkah</h2>
+            <img src="pink_floral_backdrop.jpeg" alt="Pink Floral Backdrop">
+            <p>An enchanting nikkah setup embellished with white, champagne, and pink flowers. Complete with delicate drapes, strings, and chairs on either side.</p>
+            <p class="price">$400</p>
+        </div>
+    </div>
+
+  <br>
+<footer class="footer">
+  <div class="footer-left col-md-4 col-sm-6">
+    <p class="about">
+     <b>ABOUT THE COMPANY</b><br> At The Dreamy Decor, we believe that every event is a unique story waiting to be told. With our exquisite event decor and rental services, we transform ordinary spaces into extraordinary experiences. 
+    Contact us today to discuss your event decor and rental needs. Let's embark on a creative journey together, crafting an event that will be remembered for years to come.
+    </p>
+    <div class="icons">
+      <a href="https://www.facebook.com/profile.php?id=100094302713472" target="_blank"><i class="fa fa-facebook"></i></a>
+      <a href="https://www.instagram.com/thedreamydecor/" target="_blank"><i class="fa fa-instagram"></i></a>
+    </div>
+  </div>
+  <div class="footer-center col-md-4 col-sm-6">
+    <div>
+      <i class="fa fa-map-marker"></i>
+     <p><span> 42 Kalmia Road L6X 3B3, ON</span> Brampton, Canada</p>
+    </div>
+    <div>
+      <i class="fa fa-phone"></i>
+      <p> +1 (519) 729 5944 </p>
+    </div>
+    <div>
+      <i class="fa fa-envelope"></i>
+      <p><a href="#"> thedreamydecor@hotmail.com</a></p>
+    </div>
+  </div>
+  <div class="footer-right col-md-4 col-sm-6">
+    <span><img src="1.png"></span>
+    <p class="menu">
+     <a href="index.html"> Home</a> |
+      <a href="#"> About</a> |
+      <a href="Services.html"> Services</a> |
+      <a href="Rentals.html"> Rentals</a> |
+    </p>
+    <p class="name"> The Dreamy Decor &copy; 2023</p>
+  </div>
+</footer>
+</body>
+</html>
