@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Plinths</title>
+</head>
+<style type="text/css">
+ img {
+    width: 110px;
+    height: 110px;
+
+    }
+  body{
+    font-family: trebuchet ms, sans-serif;
+  }
+
+
+.navbar {
+    width: 100%;
+    overflow: auto;
+    padding: 5px;
+   /* margin-top: 50px; */
+    display: block;
+    margin-top: -8px;
+    text-align: center;
+    padding-right: 40px;
+}
+
+.navbar a {
+    padding: 10px;
+    color: grey;
+    text-decoration: none;
+    font-family: roboto;
+    font-size: 18px;
+    /*border-radius: 10px;*/
+    display: inline-block;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 24px;
+    border-bottom: 1px solid transparent; /* Initially transparent bottom border */
+    transition: border-color 0.7s ease; /* Smooth transition effect */
+}
+/*.navbar a:hover {
+    background-color: #181818;
+}*/
+
+.navbar a:hover {
+    border-bottom: 1px solid grey; /* On hover, change the bottom border color to white */
+}
+.logo {
+    vertical-align: middle; /* Align the logo vertically in the middle with the text */
+    margin-left: 20px;
+    height: 140px;
+    width: 140px;
+    display: inline-block;
+   margin-top: 10px;
+   margin-right: 30px;
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  .nav a {
+    padding: 5px;
+  }
+}
+
+
+.Services h2{
+  font-family: cormorant garamond;
+  color: #757372;
+  font-size: 40px;
+}
+@media screen and (max-width: 768px) {
+  .Services h2 {
+    font-size: 24px;
+  }
+}
+
+.small-navbar {
+    background-color: #FFEFCB;
+    overflow: hidden;
+}
+
+.small-navbar ul {
+    list-style-type: none;
+   /* padding: 5px;*/
+    text-align: center;
+     padding-top: 10px;
+}
+
+.small-navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.small-navbar a {
+    text-decoration: none;
+    color: dimgrey;
+    font-weight: bold;
+    transition: 0.3s;
+    font-family: ROBOTO;
+    word-spacing: -1px;
+    font-size: 20px;
+}
+
+.small-navbar a:hover {
+    color: grey;
+}
+
+
+
+.plinth-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+     padding-right: 40px;
+}
+
+.plinth-item {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+   /* background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+    text-align: justify;
+}
+
+
+.plinth-item h2{
+  font-family: ROBOTO;
+  text-align: left;
+  font-size: 25px;
+  font-style: normal;
+}
+@media screen and (max-width:768px){
+  .plinth-item h2{
+    font-size: 16px;
+  }
+}
+
+.plinth-item p{
+  font-family: ROBOTO;
+  text-align: justify;
+  font-size: 15px;
+  font-style: normal;
+}
+
+@media screen and (max-width:768px){
+  .plinth-item p{
+    font-size: 10px;
+  }
+}
+.plinth-item img {
+     width: 320px;
+    height: 360px;
+    object-fit: cover;
+    padding-right: 10px;
+}
+
+@media screen and (max-width:768px){
+  .plinth-item img{
+    height: auto;
+  }
+}
+
+.price {
+    color: grey;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+.Services h4{
+  font-family: cormorant garamond;
+  color: dimgrey;
+  font-size: 20px;
+  font-style: italic;
+}
+
+@media screen and (max-width: 768px){
+  .Services h4{
+    font-size: 15px;
+  }
+}
+
+
+
+.plinth-item {
+    position: relative; /* Add this line */
+    width: 360px;
+    height: 45%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: ivory;
+    /*overflow: hidden;*/
+    transition: 0.3s;
+}
+
+.plinth-item img {
+    width: 350px;
+    height: 360px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .plinth-item img {
+      height: auto;
+    }
+  }
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 75%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
+
+.img:hover .overlay{
+  background-image: rgba(0,0,0,0.1);
+}
+
+.plinth-item:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    font-family: cormorant garamond;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-style: normal;
+}
+
+@media screen and (max-width: 768px) {
+    .text {
+      font-size: 16px; /* Adjust the font size for smaller screens */
+     
+    }
+  }
+
+
+.plinth-item {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.plinth-item:hover {
+    opacity: 0.8;
+}
+.plinth-item:hover{
+            transform: scale(1.2);
+        }
+
+
+
+
+/* Add media query for screens up to 300px */
+/*@media (max-width: 300px) {
+.navbar {
+display: flex;
+flex-direction: column;
+}*/
+
+@media screen and (max-width: 768px) {
+  .logo{
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+   /* margin-right: 110px;*/
+  }
+}
+
+
+  @media screen and (max-width: 768px) {
+    .navbar a {
+      padding: 2x; /* Adjust the padding for smaller screens */
+      font-size: 8px; /* Adjust the font size for smaller screens */
+      display: table-cell;
+      color: grey;
+      padding-right: 10px;
+    }
+      .navbar a:hover {
+        border-bottom: 1px solid grey; /* On hover, change the bottom border color to white */
+    }
+  }
+
+@media screen and (max-width: 768px){
+  .navbar{
+    padding: 10px;
+    font-size: 10px;
+    word-spacing: -3px;
+    margin: 10px;
+  }
+}
+
+
+ @media screen and (max-width: 768px) {
+    .small-navbar {
+      text-align: center;
+      padding-right: 40px;
+      padding-bottom: 5px;
+      display: inline-block;
+       }
+
+@media screen and (max-width: 768px) {
+  .small-navbar a{
+    font-size: 6px;
+    display: inline;
+   
+  }
+}
+
+@media screen and (max-width: 768px){
+  .small-navbar h4{
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
+  }
+}
+
+
+.footer{
+  background-color: #FFFFED;
+  position: absolute;
+  font-style: normal;
+}
+
+
+.footer {
+  width: 100%;
+  size: auto;
+  text-align: left;
+  font-family: sans-serif;
+  font-weight: bold;
+
+  font-size: 15px;
+  padding: 50px;
+  padding-left: 90px;
+  margin-top: 10px;
+  /*margin-left: 20px;*/
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #FFFFED;
+  color: grey;
+}
+
+/* footer left*/
+
+.footer .footer-left {
+  width: 33%;
+  padding-left: 30px;
+  padding-right: 15px;
+  height: auto;
+  background-color: #FFFFED;
+  /*margin-left: 10px;*/
+}
+
+.footer img {
+ margin: 0 auto;
+  margin-right: 10px;
+  padding-left: 1px;
+  margin-left: 130px;
+  padding-right: 15px;
+}
+
+.footer .about {
+  line-height: 35px;
+  color: grey;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 10px;
+  background-color: #FFFFED;
+  padding-bottom: 10px;
+  margin-left: 50px;
+}
+
+
+.footer .icons {
+  margin-top: 25px;
+  margin: 10px;
+  margin-left: 40px;
+}
+
+.footer .icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: none;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #e1ad01;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* footer center*/
+
+.footer .footer-center {
+  width: 30%;
+  background-color: #FFFFED;
+    margin-left: 20px;
+}
+
+.footer .footer-center i {
+  background-color: none;
+  color: #e1ad01;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+  /*margin-right: 60px;*/
+
+}
+
+.footer .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer .footer-center p {
+  display: inline-block;
+  color: grey;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer .footer-center p a {
+  color: grey;
+  text-decoration: none;
+}
+
+.footer .footer-center a:hover{
+  color:grey;
+}
+
+/* footer right*/
+
+.footer .footer-right {
+  width: 35%;
+  background-color: none;
+  height: auto;
+
+}
+
+.footer h2 {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+
+}
+
+.footer h2 span {
+  color: black;
+}
+
+.footer .menu {
+  color: grey;
+  margin: 20px 0 12px;
+  padding: 0;
+  margin-left: 80px;
+}
+
+
+.footer .menu a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer .menu a:hover {
+  color: grey;
+}
+
+.footer .name {
+  color: grey;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+   margin-left: 80px;
+}
+
+/*@media (max-width: 768px) {
+  .footer {
+    font-size: 12px;
+    /*margin-left:40px;
+
+  }
+
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+    display: inline;
+    width: 50%;
+/*margin-bottom: 40px;*/
+/*text-align: center;
+    font-size: 12px;
+   /* vertical-align: middle;
+
+  }
+  @media screen and (max-width:768px){
+  .footer .footer-center i {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width:768px){
+  .footer .footer-left img{
+    padding: 5px;
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width:768px){
+  .footer-left .menu a{
+    padding: 5px;
+    /*padding-right: -50px;
+    margin-right:10px;
+ }
+}
+*/
+
+.footer img {
+  display: block;
+  margin: 0 auto;
+  margin-right: 50px;
+}
+
+.footer .menu {
+  text-align: center;
+}
+
+.footer .name {
+  text-align: center;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 20px;
+  }
+
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+    width: 100%;
+    text-align: center;
+     padding-left: 45px;
+  }
+
+    .footer .footer-left img {
+  margin: auto; /* Center the image horizontally */
+    display: block;
+    padding-bottom: 5px;
+    padding-right: 5px; /* Adjust as needed */
+    padding-left: 1px;
+    margin-left: 90px;
+  }
+
+  .footer .menu,
+  .footer .name {
+    margin-left: 0; /* Remove left margin */
+    margin-bottom: 10px;
+    padding-right: 20px;
+  }
+
+  .footer .footer-center p {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-right: 60px;
+  }
+
+  .footer .icons {
+    text-align: center;
+    margin-top: 20px;
+
+
+  }
+
+  .footer .icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: none; /* Set the background color to match your design */
+    border-radius: 5px;
+    font-size: 20px;
+    color: #e1ad01; /* Set the color to match your design */
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+     padding-right: 15px;
+  }
+
+  .footer .footer-center i {
+    margin: 0 auto; /* Center the icons */
+    display: block;
+     padding-right: 80px;
+  }
+
+  /* Adjust color for Facebook and Instagram icons */
+  .footer .icons a.fa-facebook {
+    color: #e1ad01; /* Facebook blue color */
+  }
+
+  .footer .icons a.fa-instagram {
+    color: #e1ad01; /* Instagram pink color */
+  }
+
+
+  .footer .footer-right p.about {
+    text-align: center;
+    margin-bottom: 20px;
+     padding-right: 60px;
+  }
+
+  .footer .footer-right .icons {
+    margin: 20px 0;
+    background-color: none;
+    padding-right: 20px;
+  }
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+<body>
+	<header>	
+	</header>
+<body style="background-color: ivory;" align="center">
+
+<div class="navbar" align="center">
+    <img src="Final logo.png" alt="logo" class="logo" align="center">
+    <a class="active" href="index1.html"><i class="fa fa-fw fa-home"></i>HOME</a>
+    <a href="AboutUs.html"><i class="fa fa-fw fa-info"></i>ABOUT US</a>
+    <a href="Services.html"><i class="fa fa-fw fa-gear"></i>DECOR SERVICES</a>
+    <a href="Rentals.html"><i class="fa fa-fw fa-truck"></i>RENTALS</a>
+       <a href="ContactUs.html"><i class="fa fa-fw fa-address-book"></i>CONTACT</a>
+</div>
+
+
+<br>
+<div class="Services">
+  <h2> ACRYLIC PLINTHS</h2>
+<br>
+<br>
+<div class="small-navbar">
+    <ul>
+        <li><a href="loveseatandchair.html">LOVESEAT & CHAIRS</a></li>
+        <li><a href="plinths.html">PLINTHS</a></li>
+        <li><a href="backdrop.html">BACKDROP STANDS</a></li>
+        <li><a href="Candelabralight.html">CANDELABRA LIGHTS</a></li>
+       <!-- <li><a href="customizedsetup.html">CUSTOMIZED SETUP</a></li> -->
+    </ul>
+</div>
+<br>
+<h4>Enhance your event's decor with our elegant plinths. <br>These pedestals are ideal for displaying floral arrangements, sculptures, or decorative elements. <br>Crafted with attention to detail, our plinths are available in various sizes and styles, allowing you to showcase your artistic vision seamlessly.<br>
+    <br>
+ <div class="plinth-container">
+        <div class="plinth-item" data-aos="fade-zoom-in">
+            <img src="plinth_39inch.jpeg" alt="39-inch Plinth">
+             <a href="# ">
+            <div class="overlay">
+              <div class="text">See More</div>
+            </div>
+          </a>
+            <h2>39-inch Plinth</h2>
+            <p>Content Required</p>
+            <p class="price">$30</p>
+        </div>
+        <div class="plinth-item" data-aos="fade-zoom-in">
+            <img src="allplinths.jpeg" alt="32-inch Plinth">
+             <a href="# ">
+            <div class="overlay">
+              <div class="text">See More</div>
+            </div>
+          </a>
+            <h2>32-inch Plinth</h2>
+            <p>Content Required</p>
+            <p class="price">$20</p>
+        </div>
+        <div class="plinth-item" data-aos="fade-zoom-in">
+            <img src="allplinths.jpeg" alt="24-inch Plinth">
+             <a href="# ">
+            <div class="overlay">
+              <div class="text">See More</div>
+            </div>
+          </a>
+            <h2>24-inch Plinth</h2>
+            <p>Content Required</p>
+            <p class="price">$20</p>
+        </div>
+        <div class="plinth-item" data-aos="fade-zoom-in">
+            <img src="allplinths.jpeg" alt="16-inch Plinth">
+             <a href="# ">
+            <div class="overlay">
+              <div class="text">See More</div>
+            </div>
+          </a>
+            <h2>16-inch Plinth</h2>
+            <p>Content Required</p>
+            <p class="price">$20</p>
+        </div>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+  <br>
+
+<footer class="footer">
+  <div class="footer-left col-md-4 col-sm-6">
+    <span><img src="Final logo.png"></span>
+    <p class="menu">
+      <a href="AboutUs.html"> About Us</a> |
+      <a href="OurPolicy.html"> Our Policy</a>
+    </p>
+    <p class="name"> The Dreamy Decor &copy; 2023</p>
+   <!-- <p class="about">
+     <b>ABOUT THE COMPANY</b><br> At The Dreamy Decor, we believe that every event is a unique story waiting to be told. With our exquisite event decor and rental services, we transform ordinary spaces into extraordinary experiences. 
+    Contact us today to discuss your event decor and rental needs. Let's embark on a creative journey together, crafting an event that will be remembered for years to come.
+    </p>-->
+   
+  </div>
+  <div class="footer-center col-md-4 col-sm-6">
+    <div>
+      <i class="fa fa-map-marker"></i>
+     <p>Brampton, Canada</p>
+    </div>
+    <div>
+      <i class="fa fa-phone"></i>
+      <p> +1 (519) 729 5944 </p>
+    </div>
+    <div>
+      <i class="fa fa-envelope"></i>
+      <p>thedreamydecor@hotmail.com</p>
+    </div>
+  </div>
+  <div class="footer-right col-md-4 col-sm-6">
+    <!--<span><img src="Final logo.png"></span>
+    <p class="menu">
+      <a href="index.html"> Home</a> |
+      <a href="#"> About</a> |
+      <a href="Services.html">Decor Services</a> |
+      <a href="Rentals.html"> Rentals</a> |
+    </p>
+    <p class="name"> The Dreamy Decor &copy; 2023</p>-->
+
+     <p class="about">
+     <b>FOLLOW US</b>
+      <div class="icons">
+      <a href="https://www.facebook.com/profile.php?id=100094302713472" target="_blank"><i class="fa fa-facebook"></i></a>
+      <a href="https://www.instagram.com/thedreamydecor/" target="_blank"><i class="fa fa-instagram"></i></a>
+    </div>
+    </p>
+  </div>
+</footer>
+</body>
+</html>

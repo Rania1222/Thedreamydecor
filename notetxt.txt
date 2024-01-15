@@ -1,0 +1,458 @@
+HTML
+
+<div class="content">
+	<img src="6.jpeg">
+	<h1>LOVE AT FIRST SIGHT, DECOR EDITION.</h1>
+	<a href="#">Explore </a>
+
+</div>
+</div>
+
+
+CSS
+
+.content {
+	text-align: center;
+}
+.content h1{
+	font-size: 100px;
+	color: black;
+	font-weight: 600;
+}
+.content a{
+	text-decoration: none;
+	display: inline-block;
+	color: black;
+	font-size: 24px;
+	border: 2px solid black;
+	padding: 12px 60px;
+	border-radius: 50px;
+	margin-top: 1;
+}
+.content a:hover{
+	background-color: #FFFDD0;
+	transition: 0.3s;
+
+
+
+
+
+
+
+
+
+background-size: 110% 100%;
+	margin-top: 10px;
+	margin: 50px;
+	padding: 230px;
+
+	
+
+background-image: url('untitled-1.png'); 
+
+p{
+	font-family: monospace;
+	align-content: center;	
+	justify-content: space-between;
+	font-size: 20px;
+	margin: 0 auto;
+	max-width: 600px;
+	padding: 0;
+	overflow-wrap: break-word;
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+
+
+html
+ <div class="footer-left col-md-4 col-sm-6">
+    <p class="about">
+     <b>ABOUT THE COMPANY</b><br> At The Dreamy Decor, we believe that every event is a unique story waiting to be told. With our exquisite event decor and rental services, we transform ordinary spaces into extraordinary experiences. 
+    Contact us today to discuss your event decor and rental needs. Let's embark on a creative journey together, crafting an event that will be remembered for years to come.
+    </p>
+    <div class="icons">
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+    </div>
+  </div>
+  <div class="footer-center col-md-4 col-sm-6">
+    <div>
+      <i class="fa fa-map-marker"></i>
+     <p><span> 42 Kalmia Road L6X 3B3, ON</span> Brampton, Canada</p>
+    </div>
+    <div>
+      <i class="fa fa-phone"></i>
+      <p> +1 (519) 729 5944 </p>
+    </div>
+    <div>
+      <i class="fa fa-envelope"></i>
+      <p><a href="#"> thedreamydecor@hotmail.com</a></p>
+    </div>
+  </div>
+  <div class="footer-right col-md-4 col-sm-6">
+    <span><img src="1.png"></span>
+    <p class="menu">
+      <a href="#"> Home</a> |
+      <a href="#"> About</a> |
+      <a href="#"> Services</a> |
+      <a href="#"> Rentals</a> |
+    </p>
+    <p class="name"> The Dreamy Decor &copy; 2023</p>
+  </div>
+</footer>
+
+css
+.footer{
+	background-color: #FFFDD0;
+	width: 100%;
+}
+
+
+.footer {
+  width: 100%;
+  size: auto;
+  text-align: left;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 50px;
+  padding-left: 30px;
+  margin-top: 50px;
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #FFFDD0;
+}
+
+/* footer left*/
+
+.footer .footer-left {
+  width: 33%;
+  padding-left: 30px;
+  padding-right: 15px;
+  height: auto;
+  background-color: #FFFDD0;
+}
+
+.footer .about {
+  line-height: 25px;
+  color: black;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+  background-color: #FFFDD0;
+}
+
+
+.footer .icons {
+  margin-top: 25px;
+}
+
+.footer .icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: Black;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* footer center*/
+
+.footer .footer-center {
+  width: 30%;
+  background-color: #FFFDD0;
+}
+
+.footer .footer-center i {
+  background-color: black;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer .footer-center p {
+  display: inline-block;
+  color: Black;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer .footer-center p a {
+  color: BLACK;
+  text-decoration: none;
+}
+
+.footer .footer-center a:hover{
+	color:grey;
+}
+
+/* footer right*/
+
+.footer .footer-right {
+  width: 35%;
+  background-color: #FFFDD0;
+  height: auto;
+}
+
+.footer h2 {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer h2 span {
+  color: black;
+}
+
+.footer .menu {
+  color: black;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer .menu a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer .menu a:hover {
+  color: grey;
+}
+
+.footer .name {
+  color: black;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .footer {
+    font-size: 14px;
+  }
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .footer .footer-center i {
+    margin-left: 0;
+  }
+}
+
+
+
+
+.loveseat-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.loveseat-item {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.loveseat-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.price {
+    color: #e44d26;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+
+
+
+
+ <div class="loveseat-container">
+        <div class="loveseat-item">
+            <img src="loveseat1.jpeg" alt="Loveseat 1">
+            <h2>Luxury Loveseat</h2>
+            <p>Experience ultimate comfort with our Luxury Loveseat. Perfect for cozy evenings and elegant gatherings.</p>
+            <p class="price">$180</p>
+        </div>
+        <div class="loveseat-item">
+            <img src="loveseat2.jpeg" alt="Loveseat 2">
+            <h2>Modern Loveseat</h2>
+            <p>Add a touch of modern sophistication to your space with our Modern Loveseat. Stylish and comfortable.</p>
+            <p class="price">$90</p>
+        </div>
+        <div class="loveseat-item">
+            <img src="loveseat3.jpeg" alt="Loveseat 3">
+            <h2>Classic Loveseat</h2>
+            <p>Timeless elegance meets exceptional comfort. Our Classic Loveseat is perfect for traditional interiors.</p>
+            <p class="price">$90</p>
+        </div>
+        <div class="loveseat-item">
+            <img src="loveseat4.jpeg" alt="Loveseat 4">
+            <h2>Cozy Loveseat</h2>
+            <p>Experience the coziest moments with our Cozy Loveseat. Plush cushions and soft fabric for ultimate relaxation.</p>
+            <p class="price">$90</p>
+        </div>
+          <div class="loveseat-item">
+            <img src="stools.jpeg" alt="Loveseat 4">
+            <h2>Luxury Stools</h2>
+            <p>Our side stools offer excellent lumbar support and comfort through ergonomic design.</p>
+            <p class="price">$60</p>
+        </div>
+        <div class="loveseat-item">
+            <img src="chairs.jpeg" alt="Loveseat 4">
+            <h2>Chic Chairs</h2>
+            <p>Discover the art of sophisticated living with our side stools and side chairs.</p>
+            <p class="price">$60</p>
+        </div>
+    </div>
+
+
+
+
+
+
+<div class="content"> 	
+	<h1 style="font-size: 7vw;">LOVE AT FIRST SIGHT, DECOR EDITION.</h1>
+	<a href="Rentals.html">Explore </a>
+</div>
+
+
+
+
+
+
+
+
+.content {
+	background-image: url('20230405_180514.jpg'); 
+	text-align: center;
+	padding: 300px;
+	padding-top: 300px;
+	margin: 10px;
+	margin-bottom: -50px;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+.content h1{
+	font-size: 100px;
+	color: black;
+	font-weight: 600;
+	margin-top: -30px;
+	padding: -30px;
+}
+.content a{
+	text-decoration: none;
+	display: inline-block;
+	color: black;
+	font-size: 24px;
+	border: 2px solid black;
+	padding: 12px 60px;
+	border-radius: 50px;
+	margin-top: 30px;
+	opacity: 50px;
+
+}
+.content a:hover{
+	background-color: #EDE6D6;
+	transition: 0.3s;	
+}
+
+
+
+
+
+
+
+<div class="grid-container">
+    <div class="grid-item" >
+      <a href="loveseatandchair.html">
+        <div class="image-container" style="background-image: url('loveseat.jpeg');"></div>
+        <h3>LOVESEAT AND CHAIRS</h3>
+   
+    </div>
+    <div class="grid-item">
+       <a href="plinths.html">
+     <div class="image-container" style="background-image: url('plinths.jpg');"></div>
+        <h3>PLINTHS</h3>
+        
+    </div>
+    <div class="grid-item">
+       <a href="backdrop.html">
+    <div class="image-container"  style="background-image: url('backdrop.jpeg');"></div>
+        <h3>BACKDROP STANDS</h3>
+       
+    </div>
+    <div class="grid-item"> 
+       <a href="Candelabralight.html">
+      <div class="image-container" style="background-image: url('clights.jpeg');"></div>
+        <h3>CANDELABRA LIGHTS</h3>
+      
+    </div>
+    <div class="grid-item" >
+       <a href="customizedsetup.html">
+     <div class="image-container" style="background-image: url('2.jpeg');"></div>
+        <h3>CUSTOMIZED SETUP</h3>
+      
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+

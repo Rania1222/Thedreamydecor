@@ -1,0 +1,310 @@
+logo left, nav bar spacing, corn yellow #FFF380
+#FAF884 pastel yellow
+hr remove
+
+our service
+wedding/reception, engagement, mendi
+epxlore radius, 0.5
+Explore > Rentals and Service, Split
+
+#72726C text color
+757372 text color
+
+
+rentals.html
+
+nav bar margin left, product and service - corn yellow color, rental and decor service font , subscribe rem. NAVBAR OUR POLICY
+wedding recep, engagement, mehndi => gallery
+rental small nav rem
+rental page, grid radius square
+grid color change dim grey, font roboto
+
+<------{small nav highlight corn yellow
+Grid images font same roboto --------> Done
+
+
+<------{footer, logo about us and our policy navigate to right, Follow us heading facebool and instagram ref to right 
+footer icons chnage color to corn yellow or pastel yellow } -----> Done
+
+
+
+#FDFD96
+
+
+.footer img {
+  margin-right: 10px;
+  padding-left: 23px;
+    width: 133px;
+
+
+
+.footer img {
+  margin-right: 10px;
+  padding-left: 23px;
+  margin-left: 80px;
+
+
+
+.ServicesColor{
+  background-color: #FFEFCB;
+  /*margin-bottom: 30px;*/
+  padding-top: 5px;
+  padding-bottom: 30px;
+}
+
+ width: 100%;
+  padding: 1rem 2rem;
+  background-color: #ffd77d;
+  color: BLACK;
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: .3s;
+  font-family: ROBOTO;
+
+
+.content a:hover{
+	/*background-color: #EDE6D6;*/
+	transition: 0.3s;	
+}
+
+
+.items:hover  img{
+
+    transform: scale(1.2); 
+}
+
+.w1{
+    width: span 1;
+}
+.w2{
+    grid-column: span 2;
+}
+
+
+
+
+
+<div class="grid-container">
+    <div class="grid-item" data-aos="fade-zoom-in">
+        <a href="gallery.html">
+            <div class="image-container" style="background-image: url('5edit.jpg');"></div>
+        </a>
+        
+    </div>
+    <div class="grid-item" data-aos="fade-zoom-in">
+        <a href="gallery.html">
+            <div class="image-container" style="background-image: url('9.jpeg');"></div>
+        </a>
+        
+    </div>
+    <div class="grid-item" data-aos="fade-zoom-in">
+        <a href="gallery.html">
+            <div class="image-container" style="background-image: url('Bench1.jpeg');"></div>
+        </a>
+      
+    </div>
+
+    <div class="grid-item" data-aos="fade-zoom-in">
+        <a href="gallery.html">
+            <div class="image-container" style="background-image: url('greenandchampagne.jpeg');"></div>
+        </a>
+    </div>
+
+     <div class="grid-item" data-aos="fade-zoom-in">
+        <a href="gallery.html">
+            <div class="image-container" style="background-image: url('whiteandblue.jpeg');"></div>
+        </a>
+        
+    </div>
+    <div class="grid-item" data-aos="fade-zoom-in">
+        <a href="gallery.html">
+            <div class="image-container" style="background-image: url('whitepinkandchampagne.jpeg');"></div>
+        </a>
+      
+    </div>
+
+    <div class="grid-item" data-aos="fade-zoom-in">
+        <a href="gallery.html">
+            <div class="image-container" style="background-image: url('pink_floral_backdrop.jpeg');"></div>
+        </a>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="Services">
+  <h2> GALLERY</h2>
+
+<br>
+   <div class="setup-container">
+        <div class="setup-item" data-aos="fade-zoom-in">
+      <a href="setupitem1.html"><img src="bench1.jpeg" alt="Bench Setup"></a>
+            
+           
+        </div>
+        <div class="setup-item" data-aos="fade-zoom-in">
+          <a href="setupitem2.html"><img src="elegant.jpeg" alt="Elegant Setup"></a>
+           
+           
+        </div>
+        <div class="setup-item" data-aos="fade-zoom-in">
+          <a href="setupitem3.html"><img src="white.jpeg" alt="White harmony"></a>
+            
+        </div>
+        <div class="setup-item" data-aos="fade-zoom-in">
+         <a href="setupitem4.html"> <img src="whiteandblue.jpeg" alt="Luxury Retreat"> </a>
+            
+        </div>
+        <div class="setup-item" data-aos="fade-zoom-in">
+          <a href="setupitem5.html"><img src="greenandchampagne.jpeg" alt="Champagne bloom"></a>
+            
+        </div>
+        <div class="setup-item" data-aos="fade-zoom-in">
+          <a href="setupitem6.html"><img src="whitepinkandchampagne.jpeg" alt="Enchanting Love"></a>
+           
+        </div>
+    </div>
+
+    <hr>
+<br>
+<div class="Services">
+  <h2> NIKKAH SETUP </h2>
+<br>
+<br>
+<div class="nikkah-container">
+        <div class="nikkah-item" data-aos="fade-zoom-in">
+       <a href="setupitem7.html"> <img src="blue_floral_backdrop.jpeg" alt="Blue Floral Backdrop"></a>
+                        
+        </div>
+        <div class="nikkah-item" data-aos="fade-zoom-in">
+           <a href="setupitem8.html"> <img src="pink_floral_backdrop.jpeg" alt="Pink Floral Backdrop"></a>
+          
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+.setup-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.setup-item {
+    width: 300px;
+    margin: 20px;
+    padding: -10px;
+    padding-left: -20px;
+    padding-right: -30px;
+  /*  background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+    margin-left: 15px;
+     /*transition: transform 0.3s ease-in-out;
+            cursor: pointer;*/
+}
+
+.setup-item h2{
+  font-family: ROBOTO;
+  text-align: center;
+  font-size: 25px;
+}
+
+.setup-item p{
+  font-family: ROBOTO;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.setup-item img {
+    width: 350px;
+    height: 360px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    margin-right: 40px;
+}
+
+.nikkah-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.nikkah-item {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    /*background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+     transition: transform 0.3s ease-in-out;
+            cursor: pointer;
+}
+
+
+.nikkah-item h2{
+  font-family: ROBOTO;
+  text-align: center;
+  font-size: 25px;
+}
+
+.nikkah-item p{
+  font-family: ROBOTO;
+  text-align: justify;
+  font-size: 15px;
+}  
+
+.nikkah-item img {
+    width: 350px;
+    height: 360px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+
+ .setup-item,
+    .nikkah-item {
+        opacity: 1; 
+        transition: opacity 0.5s ease-in-out;
+    }
+
+    .setup-item:hover,
+    .nikkah-item:hover {
+        opacity: 0.8;
+    }
+
+/*.setup-item:hover, .nikkah-item:hover {
+            transform: scale(1.2);*/
+        }
+
+
+
+
+
+
+
+

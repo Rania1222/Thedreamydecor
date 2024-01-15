@@ -1,0 +1,203 @@
+(Desktop)
+
+1. logo- link 
+2.index h4 upper space *Done*
+3. Decor Service See More Centre align *Done*
+4. Gallery See more capital *Done*
+5. Rental hover see more capital *Done*
+6. navbar hover underline fade in effect *Done*
+7. Footer *Done*
+
+
+(mobile)
+1. index page h4 upper space, Service images decor and rental sude by side grid flex *Done*
+2. footer icon alignment, icons and text centre align, follow us centre align
+3. navbar hover underline. *Done*
+4.gallery images grid view *Done*
+5. Rental page image compression *Done*
+6. small nav centre align or in line *Done*
+7. images text left align (loveseat, plinth, candelabra, backdrop)*Done*
+8. rentals sub section no need to do side by side grid images *Done*	
+9. contact us get in touch centre *done*
+
+
+
+
+services footer slightly move left text
+gallery footer image move to right slightly
+icon removal
+
+
+
+
+
+
+.candelabra-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+     padding-right: 40px;
+}
+@media screen and (max-width: 768px) {
+    .candelabra-container {
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+}
+
+.candelabra-item {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+   /* background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+    text-align: justify;
+}
+
+
+.candelabra-item h2{
+  font-family: ROBOTO;
+  text-align: left;
+  font-size: 25px;
+  font-style: normal;
+}
+
+@media screen and (max-width:768px){
+  .candelabra-item h2{
+    font-size: 16px;
+  }
+}
+.candelabra-item p{
+  font-family: ROBOTO;
+  text-align: justify;
+  font-size: 15px;
+  font-style: normal;
+}
+
+@media screen and (max-width:768px){
+  .candelabra-item p{
+    font-size: 10px;
+  }
+}
+
+.candelabra-item img {
+     width: 320px;
+    height: 320px;
+    object-fit: cover;
+    padding-right: 10px;
+}
+
+@media screen and (max-width:768px){
+  .candelabra-item img{
+    height: auto;
+  }
+}
+
+
+.price {
+    color: grey;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.Services h4{
+  font-family: cormorant garamond;
+  color: dimgrey;
+  font-size: 20px;
+  font-style: normal
+}
+
+@media screen and (max-width: 768px){
+  .Services h4{
+    font-size: 15px;
+  }
+}
+
+
+.candelabra-item {
+    position: relative; /* Add this line */
+    width: 360px;
+    height: 45%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: ivory;
+    /*overflow: hidden;*/
+    transition: 0.3s;
+}
+
+.candelabra-item img {
+    width: 350px;
+    height: 360px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .candelabra-item img {
+      height: auto;
+
+    }
+  }
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 75%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
+
+@media screen and (max-width: 768px){
+  .overlay{
+    height: 83%;
+  }
+}
+.img:hover .overlay{
+  background-image: rgba(0,0,0,0.1);
+}
+
+
+.candelabra-item:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    font-family: cormorant garamond;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-style: normal;
+}
+
+@media screen and (max-width: 768px) {
+    .text {
+      font-size: 16px; /* Adjust the font size for smaller screens */
+     
+    }
+  }
+
+
+.candelabra-item {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.candelabra-item:hover {
+    opacity: 0.8;
+}
+.candelabra-item:hover{
+            transform: scale(1.2);
+        }
+

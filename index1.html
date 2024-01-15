@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+  <title>Index</title>
+</head>
+<style type="text/css">
+   img {
+    width: 110x;
+    height: 110px;
+    }
+  body{
+    font-family: trebuchet ms, sans-serif;
+    height: 100%;
+    width: 100%;
+  }
+
+.navbar {
+    width: 100%;
+    overflow: auto;
+    padding: 5px;
+   /* margin-top: 50px;*/
+    display: block;
+    margin-top: -8px;
+    text-align: center;
+    padding-right: 40px;
+
+    /* padding: 10px;
+    color: white;
+    text-decoration:none;
+    font-family: roboto;
+    font-size: 18px;
+    border-radius: 10px;
+    display: inline-block;
+    word-spacing: 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 24px;
+   /* margin-right: 10px;*/
+}
+
+.navbar a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: roboto;
+    font-size: 18px;
+    /*border-radius: 10px;*/
+    display: inline-block;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 24px;
+    border-bottom: 1px solid transparent; /* Initially transparent bottom border */
+    transition: border-color 0.7s ease; /* Smooth transition effect */
+}
+/*.navbar a:hover {
+    background-color: #181818;
+}*/
+
+.navbar a:hover {
+    border-bottom: 1px solid white /* On hover, change the bottom border color to white */
+}
+
+.logo {
+    vertical-align: middle; /* Align the logo vertically in the middle with the text */
+    margin-left: 20px;
+    height: 140px;
+    width: 140px;
+    display: inline-block;
+   margin-top: 10px;
+   margin-right: 30px;
+
+}
+.content {
+    background-image: url('20230405_180514ii.jpg'); 
+    text-align: center;
+    padding: 500px 0;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 50vh;
+    margin-top: -180px;
+    margin-bottom: -150px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .content {
+     padding: 100px 20px; /* Adjust padding for smaller screens */
+        margin-top: -50px;
+
+    }
+
+       .content h1 {
+        font-size: 6vh; /* Adjust font size for smaller screens */
+        margin-top: -50px;
+    }
+     .content a {
+        font-size: 18px; /* Adjust font size for smaller screens */
+        margin-top: 20px;
+    }
+     h4 {
+        font-size: 14px; /* Adjust font size for smaller screens */
+        margin-top: -10px; /* Adjust margin for smaller screens */
+        padding-top: 10px; /* Adjust padding for smaller screens */
+    }
+  }
+
+  .content h1 {
+    font-size: 12vh;
+    color: white;
+    margin-top: -200px;
+    font-family: Cormorant Garamond;
+    font-weight: normal;
+    word-spacing: 20px;
+  }
+
+  .content a {
+    font-family: Cormorant Garamond;
+    text-decoration: blink;
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    border: 2px solid darkgrey;
+    padding: 12px 60px;
+    border-radius: 2px;
+    margin-top: 30px;
+    opacity: 50px;
+  }
+
+  .content a:hover {
+    transition: 0.3s; 
+  }
+
+  h4 {
+    color: #72726C;
+    font-style: italic;
+    margin-top: -20px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    font-size: 20px;
+    font-family: Cormorant Garamond;
+  }
+
+  @media screen and (max-width: 768px) {
+    h4 {
+      font-size: 16px; /* Adjust font size for smaller screens */
+      margin-top: -350px;
+      padding-top: 65px;
+    }
+  }
+
+.ServicesColor{
+  background-color: #FFEFCB;
+  /*margin-bottom: 30px;*/
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+ @media screen and (max-width: 768px) {
+    .ServicesColor{
+     margin-bottom: 10px;
+     padding-top: 10px;
+     padding-bottom: -90px;
+    margin-top: -110px;*/
+    }
+  }
+
+
+
+.productandservices h3{
+margin-top: 30px;
+font-family: Comorant garamond;
+font-style: bold;
+color: grey;
+background-color: #FFEFCB;
+font-size: 35px;
+}
+
+/*@media screen and (max-width: 768px) {
+  .ServicesColor {
+    padding-top: 10px; 
+    padding-bottom: 20px; 
+  }
+
+  .productandservices h3 {
+    margin-top: 10px;
+    font-size: 20px; 
+  }
+}
+*/
+
+
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: normal;
+    justify-content: center;
+    margin: 20px;
+}
+
+.grid-item {
+    width: 40%;
+    height: 35%;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    /*background-color: ivory;*/
+    overflow: hidden;
+    transition: 0.3s;
+    position: relative;
+    justify-content: center;
+
+}
+
+.grid-item h3{
+  font-family: ROBOTO;
+  font-size: 30px;
+}
+
+.grid-item p{
+  font-family: ROBOTO;
+  font-size: 15px;
+}
+
+@media screen and (max-width:768px){
+  .grid-item h3{
+    font-size: 15px;
+  }
+}
+
+
+@media screen and (max-width:768px){
+  .grid-item p{
+    font-size: 7px;
+  }
+}
+
+.image-container {
+    height: 500px; /* Set the height of the image container */
+    background-size: cover;
+    width: 450px;
+
+}
+@media screen and (max-width: 768px) {
+    .image-container {
+      height: auto;
+      width: 40%;
+    }
+  }
+
+
+@media screen and (max-width: 768px) {
+    .grid-item {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .grid-item {
+        width: 80%;
+    }
+}
+
+/* Add this media query for screens with a width of 768 pixels or less */
+@media (max-width: 768px) {
+  .grid-item {
+    width: 100%; /* Adjust the width for smaller screens */
+  }
+}
+
+
+ /* Grid Layout Styles for Small Screens */
+@media screen and (max-width: 768px) {
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Adjust as needed */
+    max-width: 500px;
+
+  }
+
+  .grid-item {
+     width: 35.6%; /* Adjust the width for smaller screens to fit two items in a row */
+    height: 45%;
+    margin-bottom: 20px; /* Add some spacing between grid items */
+    flex: 35%;
+    /*height: 100%;*/
+   /* object-fit: contain;*/
+   /*width: fit-content;
+    height: fit-content;*/
+  }
+
+  .image-container{
+   height: 500%;
+  width: auto;
+  /*object-fit: contain;*/
+  margin: 0px;
+  padding: 80px; 
+ 
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .image-container {
+     height: auto;
+    width: 120%;
+    padding: 80px 20px; /* Adjust left padding to move it to the left */
+    background-size: cover;
+    }
+  }
+
+.footer{
+  background-color: #FFFFED;
+  position: absolute;
+}
+
+
+.footer {
+  width: 100%;
+  size: auto;
+  text-align: left;
+  font-family: sans-serif;
+  font-weight: bold;
+
+  font-size: 15px;
+  padding: 50px;
+  padding-left: 90px;
+  margin-top: 10px;
+  /*margin-left: 20px;*/
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #FFFFED;
+  color: grey;
+}
+
+/* footer left*/
+
+.footer .footer-left {
+  width: 33%;
+  padding-left: 30px;
+  padding-right: 15px;
+  height: auto;
+  background-color: #FFFFED;
+  /*margin-left: 10px;*/
+}
+
+.footer img {
+  margin-right: 10px;
+  padding-left: 23px;
+  margin-left: 80px;
+  padding-right: 15px;
+}
+
+.footer .about {
+  line-height: 35px;
+  color: grey;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 10px;
+  background-color: #FFFFED;
+  padding-bottom: 10px;
+  margin-left: 50px;
+}
+
+
+.footer .icons {
+  margin-top: 25px;
+  margin: 10px;
+  margin-left: 40px;
+}
+
+.footer .icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: none;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #e1ad01;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* footer center*/
+
+.footer .footer-center {
+  width: 30%;
+  background-color: #FFFFED;
+    margin-left: 20px;
+}
+
+.footer .footer-center i {
+  background-color: none;
+  color: #e1ad01;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+  /*margin-right: 60px;*/
+
+}
+
+.footer .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer .footer-center p {
+  display: inline-block;
+  color: grey;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer .footer-center p a {
+  color: grey;
+  text-decoration: none;
+}
+
+.footer .footer-center a:hover{
+  color:grey;
+}
+
+/* footer right*/
+
+.footer .footer-right {
+  width: 35%;
+  background-color: none;
+  height: auto;
+
+}
+
+.footer h2 {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+
+}
+
+.footer h2 span {
+  color: black;
+}
+
+.footer .menu {
+  color: grey;
+  margin: 20px 0 12px;
+  padding: 0;
+  margin-left: 80px;
+}
+
+
+.footer .menu a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer .menu a:hover {
+  color: grey;
+}
+
+.footer .name {
+  color: grey;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+   margin-left: 80px;
+}
+
+/*@media (max-width: 768px) {
+  .footer {
+    font-size: 12px;
+    /*margin-left:40px;
+
+  }
+
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+    display: inline;
+    width: 50%;
+/*margin-bottom: 40px;*/
+/*text-align: center;
+    font-size: 12px;
+   /* vertical-align: middle;
+
+  }
+  @media screen and (max-width:768px){
+  .footer .footer-center i {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width:768px){
+  .footer .footer-left img{
+    padding: 5px;
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width:768px){
+  .footer-left .menu a{
+    padding: 5px;
+    /*padding-right: -50px;
+    margin-right:10px;
+ }
+}
+*/
+
+.footer img {
+  display: block;
+  margin: 0 auto;
+  margin-right: 50px;
+}
+
+.footer .menu {
+  text-align: center;
+}
+
+.footer .name {
+  text-align: center;
+}
+/* Add media query for screens up to 300px */
+/*@media (max-width: 300px) {
+.navbar {
+display: flex;
+flex-direction: column;
+}*/
+
+@media screen and (max-width: 768px) {
+  .logo{
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+   /* margin-right: 110px;*/
+  }
+}
+
+
+  @media screen and (max-width: 768px) {
+    .navbar a {
+      padding: 1x; /* Adjust the padding for smaller screens */
+      font-size: 8px; /* Adjust the font size for smaller screens */
+      display: table-cell;
+      color: grey;
+      padding-right: 20px;
+      word-spacing: 5px;
+    }
+
+    .navbar a:hover {
+        border-bottom: 1px solid grey; /* On hover, change the bottom border color to white */
+    }
+  }
+
+@media screen and (max-width: 768px){
+  .navbar{
+    padding: 10px;
+    font-size: 10px;
+    word-spacing: -3px;
+    margin: 10px;
+   /*padding-right: 60px;*/
+
+  }
+}
+
+  @media screen and (max-width: 768px){
+     .content {
+      padding: 190px 0;
+      margin-top: 50px;
+      margin-bottom: 60px;
+      font-size: 20px;
+    }
+  }
+
+@media screen and (max-width: 768px){
+     .content h1{
+      font-size: 30px;
+      margin-top: -120px;
+    }
+  }
+
+
+@media screen and (max-width: 768px){
+     .content a{
+      font-size: 10px;
+      margin-bottom: 50px;
+       }
+  }
+  
+
+@media screen and (max-width: 768px){
+     .h4{
+      font-size: 5px;
+       }
+  }
+
+@media screen and (max-width: 768px){
+.productandservices h3 {
+      font-size: 24px;
+      margin-top: 30px;
+      font-family: "Cormorant Garamond";
+      font-style: bold;
+      color: grey;
+    }
+}
+
+/*@media screen and (max-width: 768px){
+  .gallery img {
+      display: inline-block;
+
+      
+    }
+}*/
+
+/*@media screen and (max-width: 768px){
+  .desc {
+      padding: 15px;
+      text-align: center;
+      color: #72726C;
+      vertical-align: middle;
+      font-size: 10px;
+
+    }
+  }*/
+
+/*@media screen and (max-width: 768px){
+ .responsive {
+      padding: 0 6px;
+      float: left;
+      width: 50%;
+      margin: 10px;
+      flex-wrap: wrap;
+      display: flex;
+      flex: 50%;
+      height: auto;
+      font-size: 10px;
+     
+    }
+}*/
+
+ /* @media only screen and (max-width: 768px) {
+      .responsive {
+        width: 35.5%;
+        width: 100%; Change width to 100% for single column in smaller screens 
+    margin: 10px 0;  Adjust margin for better spacing 
+      }
+    }*/
+
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 20px;
+    padding-left: 45px;
+  }
+
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+    width: 100%;
+    text-align: center;
+  }
+
+    .footer .footer-left img {
+    margin: 0 auto; /* Center the image */
+    display: block;
+    padding-bottom: 10px;
+    padding-right: 60px; /* Adjust as needed */
+  }
+
+  .footer .menu,
+  .footer .name {
+    margin-left: 0; /* Remove left margin */
+    margin-bottom: 10px;
+    padding-right: 40px;
+  }
+
+  .footer .footer-center p {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-right: 60px;
+  }
+
+  .footer .icons {
+    text-align: center;
+    margin-top: 20px;
+
+  }
+
+  .footer .icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: none; /* Set the background color to match your design */
+    border-radius: 5px;
+    font-size: 20px;
+    color: #e1ad01; /* Set the color to match your design */
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+     padding-right: 40px;
+  }
+
+  .footer .footer-center i {
+    margin: 0 auto; /* Center the icons */
+    display: block;
+     padding-right: 80px;
+  }
+
+  /* Adjust color for Facebook and Instagram icons */
+  .footer .icons a.fa-facebook {
+    color: #e1ad01; /* Facebook blue color */
+  }
+
+  .footer .icons a.fa-instagram {
+    color: #e1ad01; /* Instagram pink color */
+  }
+
+
+  .footer .footer-right p.about {
+    text-align: center;
+    margin-bottom: 20px;
+     padding-right: 60px;
+  }
+
+  .footer .footer-right .icons {
+    margin: 20px 0;
+    background-color: none;
+  }
+}
+}
+
+</style>
+<body>
+  <header>  
+  </header>
+<body style="background-color: ivory;" align="center">
+
+<div class="navbar" align="center">
+   <img src="Final logo.png" alt="logo" class="logo" align="center">
+    <a class="active" href="index1.html">HOME</a>
+    <a href="AboutUs.html">ABOUT US</a>
+    <a href="Services.html">DECOR SERVICES</a>
+    <a href="Rental1.html">RENTALS</a>
+    <a href="ContactUs.html">CONTACT</a>
+</div>
+
+
+
+
+<div class="content">   
+  <h1>LOVE AT FIRST SIGHT, DECOR EDITION.</h1>
+  <a href="#services">EXPLORE </a>
+  <br><br> <br> <br><br><br><br><br> <br> <br><br><br>
+  <h4>The Dreamy Decor, offering Event Decor and Event Rentals for all occasions. <br>
+    <br>
+    We are providing the finest quality of Loveseats, Chairs, Stools, Drapes and much more!</h4>
+</div>
+<br>
+<br>
+<div class="ServicesColor">
+
+
+<div class="productandservices" id="services">
+  <h3> SERVICES </h3>
+<br>
+</div>
+
+
+
+<div class="grid-container">
+    <div class="grid-item" >
+        <a href="services.html">
+            <div class="image-container" style="background-image: url('2edit3.jpg');"></div>
+        </a>
+        <h3>DECOR SERVICES</h3>
+       
+    </div>
+    <div class="grid-item">
+        <a href="Rental1.html">
+            <div class="image-container" style="background-image: url('13edit2.jpg');"></div>
+        </a>
+        <h3>RENTALS</h3>
+    </div>
+   
+</div>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<!--<div class="clearfix"></div>-->
+
+
+<footer class="footer">
+  <div class="footer-left col-md-4 col-sm-6">
+    <span><img src="Final logo.png"></span>
+    <p class="menu">
+      <a href="AboutUs.html"> About Us</a> |
+      <a href="OurPolicy.html"> Our Policy</a>
+    </p>
+    <p class="name"> The Dreamy Decor &copy; 2023</p>
+   <!-- <p class="about">
+     <b>ABOUT THE COMPANY</b><br> At The Dreamy Decor, we believe that every event is a unique story waiting to be told. With our exquisite event decor and rental services, we transform ordinary spaces into extraordinary experiences. 
+    Contact us today to discuss your event decor and rental needs. Let's embark on a creative journey together, crafting an event that will be remembered for years to come.
+    </p>-->
+   
+  </div>
+  <div class="footer-center col-md-4 col-sm-6">
+    <div>
+      <i class="fa fa-map-marker"></i>
+     <p>Brampton, Canada</p>
+    </div>
+    <div>
+      <i class="fa fa-phone"></i>
+      <p> +1 (519) 729 5944 </p>
+    </div>
+    <div>
+      <i class="fa fa-envelope"></i>
+      <p>thedreamydecor@hotmail.com</p>
+    </div>
+  </div>
+  <div class="footer-right col-md-4 col-sm-6">
+    <!--<span><img src="Final logo.png"></span>
+    <p class="menu">
+      <a href="index.html"> Home</a> |
+      <a href="#"> About</a> |
+      <a href="Services.html">Decor Services</a> |
+      <a href="Rentals.html"> Rentals</a> |
+    </p>
+    <p class="name"> The Dreamy Decor &copy; 2023</p>-->
+
+     <p class="about">
+     <b>FOLLOW US</b>
+      <div class="icons">
+      <a href="https://www.facebook.com/profile.php?id=100094302713472" target="_blank"><i class="fa fa-facebook"></i></a>
+      <a href="https://www.instagram.com/thedreamydecor/" target="_blank"><i class="fa fa-instagram"></i></a>
+    </div>
+    </p>
+  </div>
+</footer>
+</body>
+</html>

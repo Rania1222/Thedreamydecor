@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+	<title>CONTACT US</title>
+</head>
+<style type="text/css">
+	img {
+    width: 110x;
+    height: 110px;
+    }
+	body{
+		font-family: trebuchet ms, sans-serif;
+	}
+
+.navbar {
+    width: 100%;
+    overflow: auto;
+    padding: 5px;
+   /* margin-top: 50px; */
+    display: block;
+    margin-top: -8px;
+    text-align: center;
+    padding-right: 40px;
+}
+
+.navbar a {
+     padding: 10px;
+    color: grey;
+    text-decoration: none;
+    font-family: roboto;
+    font-size: 18px;
+    /*border-radius: 10px;*/
+    display: inline-block;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 24px;
+    border-bottom: 1px solid transparent; /* Initially transparent bottom border */
+    transition: border-color 0.7s ease; /* Smooth transition effect */
+}
+/*.navbar a:hover {
+    background-color: #181818;
+}*/
+
+.navbar a:hover {
+    border-bottom: 1px solid grey; /* On hover, change the bottom border color to white */
+}
+
+
+.logo {
+    vertical-align: middle; /* Align the logo vertically in the middle with the text */
+    margin-left: 20px;
+    height: 140px;
+    width: 140px;
+    display: inline-block;
+   margin-top: 10px;
+   margin-right: 30px;
+
+}
+
+@media screen and (max-width: 768px) {
+  .nav a {
+    padding: 5px;
+  }
+}
+
+
+.ServicesColor{
+  background-color: #FFEFCB;
+  /*margin-bottom: 30px;*/
+  padding-top: 5px;
+  padding-bottom: 30px;
+}
+
+
+.container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 100px;
+
+}
+
+
+
+.container:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-size: cover;
+  filter: blur(50px);
+  z-index: -1;
+}
+
+.contact-box{
+  max-width: 1000px;
+  display: ruby;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  padding: 80px;
+    /*box-shadow: 0px 0px 19px 5px rgba(255,239,203);*/
+}
+
+/*.left{
+  background: url("aboutus1.png") no-repeat center;
+  background-size: cover;
+  height: 100%;
+}*/
+
+/*.right{
+  padding: 25px 40px;
+}*/
+
+h2{
+  position: relative;
+  padding: 0 0 10px;
+  margin-bottom: 10px;
+  font-family: cormorant garamond;
+  font-size: 50px;
+  color: grey;
+}
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 40px; /* Adjust font size for smaller screens */
+    padding-bottom: 60px; /* Adjust margin for smaller screens */
+  }
+}
+
+h2:after{
+  content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 340px;
+    border-radius: 2px;
+    background-color: #FFEFCB;
+
+}
+
+.field{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  outline: none;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  margin-bottom: 22px;
+  transition: .3s;
+  font-family: ROBOTO;
+  color: grey;
+  
+
+}
+
+@media screen and (max-width: 768px) {
+  .field {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+    margin-bottom: 15px; /* Adjust margin for smaller screens */
+
+  }
+}
+
+.field:hover{
+  background-color: white;
+  color: black;
+}
+
+.field:hover::placeholder {
+  color: black; /* Change placeholder text color on hover */
+}
+
+textarea{
+  min-height: 150px;
+}
+
+/*input:required {
+  color: #800000;
+  /*border-width: 3px;}*/
+
+
+
+.btn{
+font-family: ROBOTO;
+  display: inline-block;
+  color: WHITE;
+  font-size: 1.1 rem;
+ /* border: 2px solid grey;*/
+  padding: 12px 60px;
+  /*border-radius: 2px;*/
+  margin-top: 30px;
+  opacity: 50px;
+  /*border-block: none;*/
+   background-color:  #b4b4b4;
+   /*cursor: pointer;*/
+}
+
+.btn:hover{
+    background-color:#a7a7a7;
+    color: white;
+    transition: 0.8s;
+    cursor: pointer;
+    outline: none;
+  
+}
+
+.btn:focus{
+  color:white;
+  border: none;
+}
+
+.field:focus{
+    color: black;
+    background-color: white;
+    border-bottom: 1px solid grey;
+}
+
+
+@media screen and (max-width: 880px){
+  .contact-box{
+    grid-template-columns: 1fr;
+  }
+  }
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .logo{
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+   /* margin-right: 110px;*/
+  }
+}
+
+
+  @media screen and (max-width: 768px) {
+    .navbar a {
+      padding: 2x; /* Adjust the padding for smaller screens */
+      font-size: 8px; /* Adjust the font size for smaller screens */
+      display: table-cell;
+      color: grey;
+        padding-right: 20px;
+      word-spacing: 5px;
+    }
+     .navbar a:hover {
+        border-bottom: 1px solid grey; /* On hover, change the bottom border color to white */
+    }
+  }
+
+@media screen and (max-width: 768px){
+  .navbar{
+    padding: 10px;
+    font-size: 10px;
+    word-spacing: -3px;
+    margin: 10px;
+  }
+
+}
+
+  /* Grid Layout Styles for Small Screens */
+  @media screen and (max-width: 768px) {
+    .grid-item {
+      width: 500px; /* Adjust the width for smaller screens */
+      height: 500px;
+    }
+  }
+
+
+
+.footer{
+  background-color: #FFFFED;
+  position: absolute;
+}
+
+
+.footer {
+  width: 100%;
+  size: auto;
+  text-align: left;
+  font-family: sans-serif;
+  font-weight: bold;
+
+  font-size: 15px;
+  padding: 50px;
+  padding-left: 90px;
+  margin-top: 10px;
+  /*margin-left: 20px;*/
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #FFFFED;
+  color: grey;
+}
+
+/* footer left*/
+
+.footer .footer-left {
+  width: 33%;
+  padding-left: 30px;
+  padding-right: 15px;
+  height: auto;
+  background-color: #FFFFED;
+  /*margin-left: 10px;*/
+}
+
+.footer img {
+  margin-right: 10px;
+  padding-left: 23px;
+  margin-left: 80px;
+  padding-right: 15px;
+}
+
+.footer .about {
+  line-height: 35px;
+  color: grey;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 10px;
+  background-color: #FFFFED;
+  padding-bottom: 10px;
+  margin-left: 50px;
+}
+
+
+.footer .icons {
+  margin-top: 25px;
+  margin: 10px;
+  margin-left: 40px;
+}
+
+.footer .icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: none;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #e1ad01;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* footer center*/
+
+.footer .footer-center {
+  width: 30%;
+  background-color: #FFFFED;
+    margin-left: 20px;
+}
+
+.footer .footer-center i {
+  background-color: none;
+  color: #e1ad01;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+  /*margin-right: 60px;*/
+
+}
+
+.footer .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer .footer-center p {
+  display: inline-block;
+  color: grey;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer .footer-center p a {
+  color: grey;
+  text-decoration: none;
+}
+
+.footer .footer-center a:hover{
+  color:grey;
+}
+
+/* footer right*/
+
+.footer .footer-right {
+  width: 35%;
+  background-color: none;
+  height: auto;
+
+}
+
+.footer h2 {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+
+}
+
+.footer h2 span {
+  color: black;
+}
+
+.footer .menu {
+  color: grey;
+  margin: 20px 0 12px;
+  padding: 0;
+  margin-left: 80px;
+}
+
+
+.footer .menu a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer .menu a:hover {
+  color: grey;
+}
+
+.footer .name {
+  color: grey;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+   margin-left: 80px;
+}
+
+/*@media (max-width: 768px) {
+  .footer {
+    font-size: 12px;
+    /*margin-left:40px;
+
+  }
+
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+    display: inline;
+    width: 50%;
+/*margin-bottom: 40px;*/
+/*text-align: center;
+    font-size: 12px;
+   /* vertical-align: middle;
+
+  }
+  @media screen and (max-width:768px){
+  .footer .footer-center i {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width:768px){
+  .footer .footer-left img{
+    padding: 5px;
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width:768px){
+  .footer-left .menu a{
+    padding: 5px;
+    /*padding-right: -50px;
+    margin-right:10px;
+ }
+}
+*/
+
+.footer img {
+  display: block;
+  margin: 0 auto;
+  margin-right: 50px;
+}
+
+.footer .menu {
+  text-align: center;
+}
+
+.footer .name {
+  text-align: center;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 20px;
+     padding-left: 45px;
+  }
+
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+    width: 100%;
+    text-align: center;
+  }
+
+    .footer .footer-left img {
+    margin: 0 auto; /* Center the image */
+    display: block;
+    padding-bottom: 10px;
+    padding-right: 60px; /* Adjust as needed */
+  }
+
+  .footer .menu,
+  .footer .name {
+    margin-left: 0; /* Remove left margin */
+    margin-bottom: 10px;
+    padding-right: 40px;
+  }
+
+  .footer .footer-center p {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-right: 60px;
+  }
+
+  .footer .icons {
+    text-align: center;
+    margin-top: 20px;
+
+  }
+
+  .footer .icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: none; /* Set the background color to match your design */
+    border-radius: 5px;
+    font-size: 20px;
+    color: #e1ad01; /* Set the color to match your design */
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+     padding-right: 40px;
+  }
+
+  .footer .footer-center i {
+    margin: 0 auto; /* Center the icons */
+    display: block;
+     padding-right: 80px;
+  }
+
+  /* Adjust color for Facebook and Instagram icons */
+  .footer .icons a.fa-facebook {
+    color: #e1ad01; /* Facebook blue color */
+  }
+
+  .footer .icons a.fa-instagram {
+    color: #e1ad01; /* Instagram pink color */
+  }
+
+
+  .footer .footer-right p.about {
+    text-align: center;
+    margin-bottom: 20px;
+     padding-right: 60px;
+  }
+
+  .footer .footer-right .icons {
+    margin: 20px 0;
+    background-color: none;
+  }
+}
+
+
+
+
+/* Add media query for screens up to 300px */
+/*@media (max-width: 300px) {
+.navbar {
+display: inline-block;
+flex-direction: column;
+}*/
+
+
+</style>
+<body>
+	<header>	
+	</header>
+<body style="background-color: ivory;" align="center">
+
+<div class="navbar" align="center">
+    <img src="Final logo.png" alt="logo" class="logo" align="center">
+     <a class="active" href="index1.html">HOME</a>
+    <a href="AboutUs.html">ABOUT US</a>
+    <a href="Services.html">DECOR SERVICES</a>
+    <a href="Rental1.html">RENTALS</a>
+    <a href="ContactUs.html">CONTACT</a>
+</div>
+
+
+<div class="ServicesColor">
+
+
+<div class="container">
+    <div class="contact-box">
+     
+      <div class="right">
+        <form action="#" method="post" id="contactForm">
+        <h2>GET IN TOUCH</h2>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        <input type="text" class="field" placeholder="Your Name" id="Name" required>
+    <input type="email" class="field" placeholder="Your Email" id="Email" required>
+    <input type="tel" class="field" placeholder="Phone" id="Phone"required>
+    <textarea placeholder="Message" class="field" id="field" required></textarea>
+        <button class="btn" id="message" onclick="Send()"><b>SEND</b></button>
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<footer class="footer">
+  <div class="footer-left col-md-4 col-sm-6">
+    <span><img src="Final logo.png"></span>
+    <p class="menu">
+      <a href="AboutUs.html"> About Us</a> |
+      <a href="OurPolicy.html"> Our Policy</a>
+    </p>
+    <p class="name"> The Dreamy Decor &copy; 2023</p>
+   <!-- <p class="about">
+     <b>ABOUT THE COMPANY</b><br> At The Dreamy Decor, we believe that every event is a unique story waiting to be told. With our exquisite event decor and rental services, we transform ordinary spaces into extraordinary experiences. 
+    Contact us today to discuss your event decor and rental needs. Let's embark on a creative journey together, crafting an event that will be remembered for years to come.
+    </p>-->
+   
+  </div>
+  <div class="footer-center col-md-4 col-sm-6">
+    <div>
+      <i class="fa fa-map-marker"></i>
+     <p>Brampton, Canada</p>
+    </div>
+    <div>
+      <i class="fa fa-phone"></i>
+      <p> +1 (519) 729 5944 </p>
+    </div>
+    <div>
+      <i class="fa fa-envelope"></i>
+      <p>thedreamydecor@hotmail.com</p>
+    </div>
+  </div>
+  <div class="footer-right col-md-4 col-sm-6">
+    <!--<span><img src="Final logo.png"></span>
+    <p class="menu">
+      <a href="index.html"> Home</a> |
+      <a href="#"> About</a> |
+      <a href="Services.html">Decor Services</a> |
+      <a href="Rentals.html"> Rentals</a> |
+    </p>
+    <p class="name"> The Dreamy Decor &copy; 2023</p>-->
+
+     <p class="about">
+     <b>FOLLOW US</b>
+      <div class="icons">
+      <a href="https://www.facebook.com/profile.php?id=100094302713472" target="_blank"><i class="fa fa-facebook"></i></a>
+      <a href="https://www.instagram.com/thedreamydecor/" target="_blank"><i class="fa fa-instagram"></i></a>
+    </div>
+    </p>
+  </div>
+</footer>
+
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+ <script>
+          function Send() {
+        var name = document.getElementById("Name").value;
+        var email = document.getElementById("Email").value;
+        var contact = document.getElementById("Phone").value;
+        var message = document.getElementById("field").value;
+
+        // Check if any required field is empty
+        if (!name || !email || !contact || !message) {
+            swal("Error", "Please fill out all the required fields.", "error");
+            return;
+        }
+
+
+        // Validate email format
+        var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(email)) {
+            swal("Error", "Please enter a valid email address.", "error");
+            return;
+        }
+
+        var body = "Name: " + name + "<br/> Email:" + email + "<br/> Contact Number:" + contact + "<br/> Message:" + message;
+
+        Email.send({
+            SecureToken : "e18365a8-50ee-4648-bb15-eec83a4977a0",
+            To : 'thedreamydecor@hotmail.com',
+            From : "thedreamydecor@hotmail.com",
+            Subject: message,
+            Body: body
+        }).then(
+            message => {
+                if (message === 'OK') {
+                    swal("Success", "Thank you for your message. It has been sent.", "success");
+
+ // Clear the form fields
+                    document.getElementById("Name").value = "";
+                    document.getElementById("Email").value = "";
+                    document.getElementById("Phone").value = "";
+                    document.getElementById("field").value = "";
+
+                } else {
+                    swal("Error", "Failed to send email. Please try again later.", "error");
+                }
+            }
+        );
+    }
+
+    // Add an event listener to prevent the default form submission
+    document.getElementById("contactForm").addEventListener("submit", function (event) {
+        event.preventDefault();
+    });
+
+  </script>
+
+
+</body>
+</html>
+
